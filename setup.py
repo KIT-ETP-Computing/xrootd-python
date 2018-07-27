@@ -2,7 +2,6 @@ from distutils.core import setup, Extension
 from distutils import sysconfig
 from os import getenv, walk, path
 import subprocess
-import six
 
 # Remove the "-Wstrict-prototypes" compiler option, which isn't valid for C++.
 cfg_vars = sysconfig.get_config_vars()
